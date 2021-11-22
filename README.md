@@ -38,6 +38,14 @@ Docker는 Dokerfile을 이용하여 설치명령어를 작성합니다. Dokerfil
   bash start.sh
 ```
 Add를 눌러 HandEyeCalibration을 추가 Target 탭에서 다음과 같이 설정
+```bash
+  Target Type              :     HandEyeTarget/Aruco
+  markers, X               :     4
+  markers, Y               :     3
+  measured marker size (m) :     0.041
+  measured seperation (m)  :     0.0038
+  
+```
 
 ![image](https://user-images.githubusercontent.com/53217819/142820762-6fdaf67d-faa2-4cce-9b00-2b65780a7b23.png)
 

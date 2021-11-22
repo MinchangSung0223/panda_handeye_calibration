@@ -27,4 +27,24 @@ Docker는 Dokerfile을 이용하여 설치명령어를 작성합니다. Dokerfil
     bash build.sh
 ```
 
-3. 
+3. 실행방법
+
+제어 PC에서 panda_control_moveit.rviz.launch를 실행한다.
+``` bash
+  roslaunch panda_control_moveit_rviz.launch
+```
+현재 폴더 panda_handeye_calibration에서 빌드를 완료한 후 다음의 명령어로 rviz를 실행한다.(바로 realsense2_camera rs_camera.launch가 실행되며 rviz가 동시에 실행된다.)
+```bash
+  bash start.sh
+```
+Add를 눌러 HandEyeCalibration을 추가 Target 탭에서 다음과 같이 설정
+
+![image](https://user-images.githubusercontent.com/53217819/142820762-6fdaf67d-faa2-4cce-9b00-2b65780a7b23.png)
+
+
+Context탭에서 다음과 같이 설정
+
+![image](https://user-images.githubusercontent.com/53217819/142820826-a4a063fb-71c4-4111-9eb3-11666db961ae.png)
+
+
+

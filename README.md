@@ -43,7 +43,14 @@ Add를 눌러 HandEyeCalibration을 추가 Target 탭에서 다음과 같이 설
 
 
 Context탭에서 다음과 같이 설정
-
+```bash
+  Sensor configuration     :     Eye-to-hand
+  
+  Sensor frame             :     camera_color_frame
+  Object frame             :     handeye_target
+  End-effector frame       :     panda_hand
+  Robot base frame         :     panda_link0
+```
 ![image](https://user-images.githubusercontent.com/53217819/142820826-a4a063fb-71c4-4111-9eb3-11666db961ae.png)
 
 Calibrate 탭에서 Take Sample을 눌러 데이터 획득(최소 15장 정도)

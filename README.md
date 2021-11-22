@@ -46,5 +46,11 @@ Context탭에서 다음과 같이 설정
 
 ![image](https://user-images.githubusercontent.com/53217819/142820826-a4a063fb-71c4-4111-9eb3-11666db961ae.png)
 
+Calibrate 탭에서 Take Sample을 눌러 데이터 획득(최소 15장 정도)
 
+![image](https://user-images.githubusercontent.com/53217819/142820938-bedd0ec4-8080-47f8-80c7-8802bd289a7b.png)
+
+Solve버튼을 누르고 실행된 Terminal창에서 결과 값 확인 (4x4 Matrix)
+
+![image](https://user-images.githubusercontent.com/53217819/142820983-628b28a6-e585-4464-9194-84b68a76579b.png)
 

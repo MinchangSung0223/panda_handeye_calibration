@@ -79,9 +79,7 @@ RUN /bin/bash -c "cd ~/catkin_ws/src;git clone https://github.com/ros-planning/p
 
 RUN /bin/bash -c "source /opt/ros/noetic/setup.bash; cd ~/catkin_ws;catkin build"
 
-
-
-
+SHELL ["/bin/bash", "--login", "-c","source /opt/ros/noetic/devel/setup.bash"]
 
 EXPOSE 80
 EXPOSE 443
